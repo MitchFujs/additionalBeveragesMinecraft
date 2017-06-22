@@ -11,7 +11,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemABGlassBottle extends Item {
 	public ItemABGlassBottle() {
 		super();
-		setRegistryName("abglass_bottle");
+		//setRegistryName("abglass_bottle");
 		setUnlocalizedName("abglass_bottle");
 		setCreativeTab(CreativeTabs.FOOD);
 		//setTextureName("abglass_bottle");
