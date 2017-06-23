@@ -24,7 +24,7 @@ public class AdditionalBeverages {
 	}
 
 	@Mod.EventHandler
-	public void init(FMLInitializationEvent event) { // recipe creation goes
-														// here
+	public void init(FMLInitializationEvent event) { // recipe creation goes here
+		
 	}
 }

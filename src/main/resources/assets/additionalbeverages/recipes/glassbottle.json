@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "additionalbeverages:glassbottle"
+    "item": "additionalbeverages:glassbottle",
+	"count": 6
   },
   "pattern": [
     " G ",

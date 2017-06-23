@@ -9,15 +9,19 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModItems {
 	public static ItemABGlassBottle glassBottle;
+	public static ItemABWaterBottle waterBottle;
 	
 	public static void init() {
 		glassBottle = new ItemABGlassBottle();
+		waterBottle = new ItemABWaterBottle();
 		
 		GameRegistry.register(ModItems.glassBottle, new ResourceLocation(AdditionalBeverages.MODID, "glassbottle"));
+		GameRegistry.register(ModItems.waterBottle, new ResourceLocation(AdditionalBeverages.MODID, "waterbottle"));
 	}
 	
 	@SideOnly(Side.CLIENT)
 	public static void initModels() {
 		glassBottle.initModel();
+		waterBottle.initModel();
 	}
 }
